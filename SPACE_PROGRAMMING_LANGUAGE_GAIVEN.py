@@ -27,6 +27,8 @@ I2) CAN PRINT G-CODE FOR DIGITAL REPRESENTATIONS OF STRUCTURES.
 I3) this is known as the O/SPACE PROGRAMMING LANGUAGE.
 I4) ALL "OLIs" CREATED FROM THE SPACE-PROGRAMMING-LANGUAGE ARE ALL OPEN-SOURCE, PERIOD. NO EXCEPTIONS
 I5) SpaceNaut, Space Explorers.
+I6) OBJECTS CAN BE CHEMICAL ELEMENTS.
+I7) CAN DOWNLOAD OLIs FROM ONLY SO THAT ALL SPACE EXPLORERS CAN BETTER EXPLORE SPACE.
 '''
 
 # SPACE PROGRAMMING LANGUAGE
@@ -184,14 +186,14 @@ LAYER 2 UNITS, UNIVERSES SYMBOL = >[|]<
 
 LAYER 3 UNITS, THOUGHTS, SYMBOL = [O||]|
 =============
-9) OBJECT  = O, len()
+9) OBJECT  = O, len(), (O||
 
 LAYER 4 UNITS, REALITIES, SYMBOL = ([|>|])
 =============
-10) SUBTRACTION    = - , abs()
-11) DIVISION       = / , pow()
-12) ADDITION       = + , create a list, list_name = [], multiply()
-13) MULTIPLICATION = * , create a set, set_name = {}, add()
+10) SUBTRACTION    = - , abs(), >, |>
+11) DIVISION       = / , pow(), <, )|O<
+12) ADDITION       = + , create a list, list_name = [], multiply(),> and =, )O)
+13) MULTIPLICATION = * , create a set, set_name = {}, add(), < or =, -O<>
 
 EX:
 
@@ -213,16 +215,16 @@ HOW DO YOU DRAW WITH THIS LANGUAGE AND INSTANTLY HAVE IT WORK AND STUFF?
 
 # LEVEL 6 UNITS, OPERATORS OF REALITY, |Y| = cardinality of Y, the size of Y, SYMBOL = {|_\}
 # -------------------------------------------------------------
-18) NOT O , O Not O  = S = (X,Y,Z,....,n) => ' => 3'3'3'3'3'3'3 => normal not, 3 units of objects multiplied 7 => O-number_representation*|S|, append()
-19) O OR O  = K = (x,y,...,n) => " -> 3"3  => " => 3"3"3"3"3"3"3 => 3 units of objects divided by 7 => O-number_representation/|K|, normal or, eval()
-20) O AND O = P = (x,y,...,n) => ? => 3^3^3  ^  => O-number_reprentation+|P| , normal and,  getattr()
-21) O NAND O = I = (x,y,z,...,n) => % => 3%3%3%3 => O-number_reprentation-|I| , normal nand, join()
+18) NOT O , O Not O  = S = (X,Y,Z,....,n) => ' => 3'3'3'3'3'3'3 => normal not, 3 units of objects multiplied 7 => O-number_representation*|S|, append(), ||O|>
+19) O OR O  = K = (x,y,...,n) => " -> 3"3  => " => 3"3"3"3"3"3"3 => 3 units of objects divided by 7 => O-number_representation/|K|, normal or, eval(), |<O>|
+20) O AND O = P = (x,y,...,n) => ? => 3^3^3  ^  => O-number_reprentation+|P| , normal and,  getattr(), |>O>
+21) O NAND O = I = (x,y,z,...,n) => % => 3%3%3%3 => O-number_reprentation-|I| , normal nand, join(), |<O|
 
 
 LAYER 7 UNITS, FORMS/SYMBOLS, FUNCTION FORMS FORMS, SYMBOL = |<O>|
 ==========================================
-22) EQUATION-1 = ATOM ADDITION ATOM = 2 = FUNCTOR, self defined python function
-23) EQUATION-COOL_NAME_SOUND = ... = self def function
+22) EQUATION-1 = ATOM ADDITION ATOM = 2 = FUNCTOR, self defined python function, ||>O|
+23) EQUATION-COOL_NAME_SOUND = ... = self def function, /|O|\
 
 # the formed operation described/written out is the form/symbol for its own function.
 
@@ -260,7 +262,88 @@ LAYER 7 UNITS, FORMS/SYMBOLS, FUNCTION FORMS FORMS, SYMBOL = |<O>|
 '''
 # can change the input cursor symbol.
 # CAN ENTER A OBJECT NAME AND IT WILL RETURN WHAT IT IS.
-IDEA = input("O|=|> ")
+while(True):
+        try:
+                IDEA = input("O|=|> ")
+
+                # TESTS OF IDEAS
+                if "_" and "_" in IDEA:
+                        print("atom discovered")
+                        # AN ATOM
+
+                elif "-" in IDEA:
+                        print("functor discovered")
+                        # AN FUNCTOR
+
+                elif "[" and "]" in IDEA:
+                        print("program found")
+                        # AN PROGRAM
+
+                elif "(" and ")" in IDEA:
+                        print("machine found")
+                        # AN MACHINE
+
+                elif "~" in IDEA:
+                        print("signal found")
+                        # AN SIGNAL
+                        #  
+                elif "-" and "-" in IDEA:
+                        print("layer found")
+                        # AN LAYER    
+                                        
+                if "*" and "*" in IDEA:
+                        print("space found")
+                        # AN SPACE
+
+                elif "^" and "^" in IDEA:
+                        print("reality found")
+                        # AN REALITY
+
+                elif "(" and "||" in IDEA:
+                        print("object found")
+                        # AN OBJECT
+
+                        # "(["+"||]|"
+
+                elif "|" and ">" in IDEA:
+                        print("unit found")
+                        # AN unit
+                        # "([|>|])"
+
+                elif ")|" and "<" in IDEA:
+                        print("reality found")
+                        # AN REALITY
+
+                elif ")" and ")" in IDEA:
+                        print("object found")
+                        # AN OBJECT
+
+                        #"(["+"||]|"
+
+                elif "-" and "<>" in IDEA:
+                        print("unit found")
+                        # AN unit
+                        #"([|>|])"
+
+        except:
+                pass
+        '''
+        if IDEA == : # ERROR_CASE_UNKNOWN_CASE
+                = IDEA NOT PREVIOUSLY DEFINED/UNKNOWN IDEA PRECIEVED
+                = DOES NOT EXIST IN BRAIN MEMORY
+        
+        elif IDEA == : # ERROR_CASE_NOT_FOUND
+                = IDEA NOT FOUND IN SELF/MIND MEMORY.
+                
+        
+        elif IDEA == : # ERROR_CASE_SPELLED_WRONG
+                = IDEA SPELLED WRONG WHEN COMPARED TO IT IN SELF MEMEORY.
+                = IDEA NOT IN MIND OR BRAIN.
+
+        RETURN ()
+        ''' 
+
+
 
 
 '''
