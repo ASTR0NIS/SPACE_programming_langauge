@@ -26,6 +26,7 @@ I1) SPACE PROGRAMMING LANGUAGE USER CALLED "SPACEMAN"
 I2) CAN PRINT G-CODE FOR DIGITAL REPRESENTATIONS OF STRUCTURES.
 I3) this is known as the O/SPACE PROGRAMMING LANGUAGE.
 I4) ALL "OLIs" CREATED FROM THE SPACE-PROGRAMMING-LANGUAGE ARE ALL OPEN-SOURCE, PERIOD. NO EXCEPTIONS
+I5) SpaceNaut, Space Explorers.
 '''
 
 # SPACE PROGRAMMING LANGUAGE
@@ -169,17 +170,17 @@ LAYER 0 UNITS, MEANING SYMBOL = -_-_-
 
 LAYER 1 UNITS, PARTICLES SYMBOL = ....
 =============
-1) ATOM    = A = _O_, sorted()
-2) FUNCTOR = F = -O, print()
-3) PROGRAM = P = [O], input()
-4) MACHINE = M = (O), lambda()
-5) SIGNAL  = X = ~O, , type()
+1) ATOM    = A = _O_, sorted(O)
+2) FUNCTOR = F = -O, print(O)
+3) PROGRAM = P = [O], input(O)
+4) MACHINE = M = (O), lambda(O)
+5) SIGNAL  = X = ~O, , type(O)
 
 LAYER 2 UNITS, UNIVERSES SYMBOL = >[|]<
 =============
-6) LAYER   = L = -O- = sum()
-7) SPACE   = S = **O = max()
-8) REALITY = R = ^O^ = min()
+6) LAYER   = L = -O- = sum(O)
+7) SPACE   = S = **O = max(O)
+8) REALITY = R = ^O^ = min(O)
 
 LAYER 3 UNITS, THOUGHTS, SYMBOL = [O||]|
 =============
