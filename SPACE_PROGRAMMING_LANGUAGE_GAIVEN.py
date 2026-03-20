@@ -29,6 +29,8 @@ I4) ALL "OLIs" CREATED FROM THE SPACE-PROGRAMMING-LANGUAGE ARE ALL OPEN-SOURCE, 
 I5) SpaceNaut, Space Explorers.
 I6) OBJECTS CAN BE CHEMICAL ELEMENTS.
 I7) CAN DOWNLOAD OLIs FROM ONLY SO THAT ALL SPACE EXPLORERS CAN BETTER EXPLORE SPACE.
+I8) can program drawings into existance.
+I9) sell licensing to use the O-Programming-Language
 '''
 
 # SPACE PROGRAMMING LANGUAGE
@@ -262,6 +264,10 @@ LAYER 7 UNITS, FORMS/SYMBOLS, FUNCTION FORMS FORMS, SYMBOL = |<O>|
 '''
 # can change the input cursor symbol.
 # CAN ENTER A OBJECT NAME AND IT WILL RETURN WHAT IT IS.
+
+# TODO: CONTINUE MAKING THIS
+# MEMORY = STORED_DATA = SPACE + DATA = PROGRAM
+
 while(True):
         try:
                 IDEA = input("O|=|> ")
@@ -306,7 +312,7 @@ while(True):
                         # "(["+"||]|"
 
                 elif "|" and ">" in IDEA:
-                        print("unit found")
+                        print("unit/data found")
                         # AN unit
                         # "([|>|])"
 
@@ -315,7 +321,7 @@ while(True):
                         # AN REALITY
 
                 elif ")" and ")" in IDEA:
-                        print("object found")
+                        print("object/information found")
                         # AN OBJECT
 
                         #"(["+"||]|"
